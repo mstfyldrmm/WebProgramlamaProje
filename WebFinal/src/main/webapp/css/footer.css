@@ -1,0 +1,191 @@
+@charset "UTF-8";/*!
+ * Font Awesome Free 5.6.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Mali:wght@400;700&display=swap');
+.mainDiv{
+    background: url('../img/footer-bg.jpg') no-repeat center bottom;
+    padding-bottom: 2.5rem
+}
+
+.mainDiv section.info-line {
+    background: #198243;
+    padding: 1.35em 0
+}
+
+.mainDiv section.info-line div.row>div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.mainDiv section.info-line div.row>div:first-child {
+    border-right: 1px solid #15743b
+}
+
+.mainDiv section.info-line span.title {
+    color: #a6d9ba;
+    font-family: Pacifico;
+    font-size: 1.5em
+}
+
+.mainDiv section.info-line span.number {
+    font-size: 1.625em;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 1.8em
+}
+
+.mainDiv section.info-line div.socials span {
+    margin-right: 2em
+}
+
+.mainDiv section.info-line div.socials i {
+    position: relative;
+    top: .4rem;
+    color: #fff;
+    font-size: 1.8em;
+    margin-right: .4rem
+}
+
+.mainDiv  section.highlights .row {
+    padding: 50px 0 30px 0;
+    border-bottom: 1px solid #ddd
+}
+
+.mainDiv  section.highlights div.box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.mainDiv  section.highlights div.box div.icon {
+    width: 35%;
+    color: #198243;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.mainDiv  section.highlights div.box div.icon i {
+    font-size: 4.3rem
+}
+
+.mainDiv section.highlights div.box div.icon i.pei-kamyon {
+    font-size: 4.7rem
+}
+
+.mainDiv section.highlights div.box div.message {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 65%
+}
+
+.mainDiv section.highlights div.box div.message span.title {
+    font-weight: 700;
+    font-size: 1rem
+}
+
+.mainDiv section.highlights div.box div.message span.desc {
+    font-size: .813rem;
+    margin-top: 5px
+}
+
+.mainDiv section.common .row {
+    border-bottom: 1px solid #ddd
+}
+
+.mainDiv section.common address {
+    padding-top: 30px
+}
+
+.mainDiv section.common address p {
+    font-size: .75rem;
+    color: #333;
+    margin-left: 27px
+}
+
+.mainDiv section.common address p:not(:last-child) {
+    margin-bottom: 13px
+}
+
+.mainDiv section.common address p i {
+    font-size: 1.3em;
+    color: #188143;
+    position: relative;
+    top: 2px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: -29px
+}
+
+.mainDiv section.common div.row>div {
+    position: relative
+}
+
+.mainDiv section.common div.row>div div.block h6 {
+    font-weight: 700;
+    font-size: 1rem
+}
+
+.mainDiv section.common div.row>div div.block h6:after {
+    content: "";
+    width: 100%;
+    border-bottom: 2px solid #198243;
+    display: block;
+    padding-bottom: 10px
+}
+
+.mainDiv section.common div.row>div div.block ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.mainDiv section.common div.row>div div.block ul li a {
+    font-size: .8125rem;
+    color: #333
+}
+
+div.product-list.grid div.one-product {
+    margin: 5px;
+    width: calc(100% / 2 - 10px)
+}
+
+div.product-list div.one-product .product-name br {
+    display: none
+}
+
+div.product-list div.one-product .product-image img {
+    width: 100%
+}
